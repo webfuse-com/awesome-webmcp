@@ -64,28 +64,7 @@ _Register tools with declarative HTML attributes or the imperative `navigator.mo
 
 **Step-by-step walkthroughs covering both the Declarative API (HTML attributes) and the Imperative API (`navigator.modelContext.registerTool`).**
 
-### Declarative API (HTML)
-
-Register tools directly in markup with `toolname`, `tooldescription`, and `toolparam*` attributes on `<form>` elements. Zero JavaScript required.
-
-### Imperative API (JavaScript)
-
-```js
-navigator.modelContext.registerTool({
-  name: "search",
-  description: "Search the product catalog",
-  inputSchema: { type: "object", properties: { query: { type: "string" } } },
-  execute: async ({ query }) => { /* ... */ }
-});
-```
-
-### Tutorial Resources
-
 - [MCP-B Tutorials](https://docs.mcp-b.ai/tutorials) - Best practical series: vanilla HTML, React (`useWebMCP` hook), native Chrome preview, desktop agent relay.
-  - First Tool (Vanilla JS)
-  - First React Tool
-  - Native Chrome Preview
-  - Desktop Agent Relay
 - [Codely: What is WebMCP and How to Use It](https://codely.com/en/blog/what-is-webmcp-and-how-to-use-it) - Excellent declarative + imperative breakdown with real-site examples.
 - [BetterStack Complete Guide](https://betterstack.com/community/guides/ai/webmcp-ai-web/) - Deep dive with a flight-booking example app.
 - [MCP-B How-To Guides](https://docs.mcp-b.ai/how-to) - Adoption strategies, existing app integration, runtimes (native vs polyfill vs global).
@@ -139,6 +118,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
+- [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 
 ---
 
@@ -151,22 +131,11 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ---
 
-## 📝 Articles & Best Practices
-
-- [Moving Beyond Screen Scraping](https://medium.com/data-science-collective/moving-beyond-screen-scraping-creating-an-agent-native-web-app-with-webmcp-4818552e1e11) - Real performance numbers and production code for agent-native apps.
-- [WebMCP: Making the Web AI-Agent Ready](https://dev.to/sunny7899/webmcp-making-the-web-ai-agent-ready-5152) - Practical overview on DEV Community.
-- [Chrome WebMCP: The Complete 2026 Guide](https://dev.to/czmilo/chrome-webmcp-the-complete-2026-guide-to-ai-agent-protocol-1ae9) - Comprehensive guide covering the full API surface.
-- [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
-
----
-
 ## 👥 Community & Contributing
 
 - [Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Join to shape the spec.
 - [WebMCP GitHub Issues & Discussions](https://github.com/webmachinelearning/webmcp/issues) - Report bugs, request features, discuss the spec.
-- [r/mcp](https://www.reddit.com/r/mcp/) - Reddit community for MCP and WebMCP discussions.
 - [r/WebMCP_Developers](https://www.reddit.com/r/WebMCP_Developers/) - Dedicated subreddit for WebMCP developers.
-- [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Agent development community with WebMCP threads.
 
 ---
 
@@ -176,7 +145,6 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Official MCP spec, SDKs, and quickstart guides.
 - [MCP-B Desktop Agent Relay](https://docs.mcp-b.ai/tutorials) - Connect desktop MCP agents to in-browser WebMCP tools.
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - Curated list of MCP servers for extending agent capabilities.
 
 ---
 
