@@ -141,6 +141,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 ## Developer Tools & Utilities
 
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
+- [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
 
 ---
@@ -159,6 +160,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 - [Moving Beyond Screen Scraping](https://medium.com/data-science-collective/moving-beyond-screen-scraping-creating-an-agent-native-web-app-with-webmcp-4818552e1e11) - Real performance numbers and production code for agent-native apps.
 - [WebMCP: Making the Web AI-Agent Ready](https://dev.to/sunny7899/webmcp-making-the-web-ai-agent-ready-5152) - Practical overview on DEV Community.
 - [Chrome WebMCP: The Complete 2026 Guide](https://dev.to/czmilo/chrome-webmcp-the-complete-2026-guide-to-ai-agent-protocol-1ae9) - Comprehensive guide covering the full API surface.
+- [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 
 ---
 
@@ -167,6 +169,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 - [Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Join to shape the spec.
 - [WebMCP GitHub Issues & Discussions](https://github.com/webmachinelearning/webmcp/issues) - Report bugs, request features, discuss the spec.
 - [r/mcp](https://www.reddit.com/r/mcp/) - Reddit community for MCP and WebMCP discussions.
+- [r/WebMCP_Developers](https://www.reddit.com/r/WebMCP_Developers/) - Dedicated subreddit for WebMCP developers.
 - [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Agent development community with WebMCP threads.
 
 ---
