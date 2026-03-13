@@ -1,1 +1,184 @@
-# awesome-webmcp
+# Awesome WebMCP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<a href="https://webmachinelearning.github.io/webmcp"><img src="https://img.shields.io/badge/WebMCP-Agent_Native_Web-blueviolet?style=for-the-badge&logo=google-chrome&logoColor=white" alt="WebMCP Badge" align="right"></a>
+
+The browser standard that lets any website expose structured JavaScript tools directly to in-browser AI agents via `navigator.modelContext`.
+
+> **[WebMCP](https://webmachinelearning.github.io/webmcp)** turns websites into first-class participants in the agentic web. Instead of DOM scraping, screenshots, or guesswork, agents get reliable function calls with typed schemas. Speed, precision, and developer control skyrocket.
+
+---
+
+<div align="center">
+
+**New:** Chrome 146+ ships with WebMCP Early Preview &mdash; enable it today in `chrome://flags`
+_Register tools with declarative HTML attributes or the imperative `navigator.modelContext` API_
+
+</div>
+
+---
+
+## Contents
+
+- [Official Specs & Documentation](#-official-specs--documentation)
+- [Getting Started & Browser Setup](#-getting-started--browser-setup)
+- [Tutorials & Hands-On Guides](#-tutorials--hands-on-guides)
+- [Libraries, SDKs & Polyfills](#-libraries-sdks--polyfills)
+- [Demos & Example Projects](#-demos--example-projects)
+- [Developer Tools & Utilities](#-developer-tools--utilities)
+- [Videos & Talks](#-videos--talks)
+- [Articles & Best Practices](#-articles--best-practices)
+- [Community & Contributing](#-community--contributing)
+- [Related: MCP Ecosystem](#-related-mcp-ecosystem)
+
+---
+
+## Official Specs & Documentation
+
+**The authoritative sources. Read these first.**
+
+- [WebMCP Spec (W3C Community Group Draft)](https://webmachinelearning.github.io/webmcp) - Full IDL, tool registration, schemas, and security model.
+- [WebMCP GitHub Repo](https://github.com/webmachinelearning/webmcp) - Spec source, issues, and the declarative explainer PR.
+- [Awesome WebMCP (Official)](https://github.com/webmachinelearning/awesome-webmcp) - Curated list maintained by the Web Machine Learning Community Group.
+- [Chrome Early Preview Announcement](https://developer.chrome.com/blog/webmcp-epp) - How WebMCP fits into Chrome 146+.
+- [Chrome WebMCP Usage Guide](https://developer.chrome.com/blog/webmcp-mcp-usage) - Agent integration details and practical usage patterns.
+- [Model Context Protocol (MCP) Core Spec](https://modelcontextprotocol.io/specification/latest) - The server-side counterpart that WebMCP brings to the browser.
+
+---
+
+## Getting Started & Browser Setup
+
+**Enable WebMCP and start experimenting in under 10 minutes.**
+
+### Browser Flags
+
+- **Chrome Canary / Beta 146+** - Navigate to `chrome://flags`, search **"WebMCP for testing"** (or "Experimental Web Platform features"), enable, and restart.
+
+### Essential Extensions
+
+- [Model Context Tool Inspector](https://chromewebstore.google.com/detail/model-context-tool-inspec/gbpdfapgefenggkahomfgkhfehlcenpd) - Official GoogleChromeLabs tool for debugging schemas, testing tool calls, and visualizing registered tools. Part of [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools).
+- [MCP-B Chrome Extension](https://chromewebstore.google.com/detail/mcp-b-extension/daohopfhkdelnpemnhlekblhnikhdhfa) - Bridges desktop MCP agents with in-browser WebMCP tools + polyfill support.
+
+---
+
+## Tutorials & Hands-On Guides
+
+**Step-by-step walkthroughs covering both the Declarative API (HTML attributes) and the Imperative API (`navigator.modelContext.registerTool`).**
+
+### Declarative API (HTML)
+
+Register tools directly in markup with `toolname`, `tooldescription`, and `toolparam*` attributes on `<form>` elements. Zero JavaScript required.
+
+### Imperative API (JavaScript)
+
+```js
+navigator.modelContext.registerTool({
+  name: "search",
+  description: "Search the product catalog",
+  inputSchema: { type: "object", properties: { query: { type: "string" } } },
+  execute: async ({ query }) => { /* ... */ }
+});
+```
+
+### Tutorial Resources
+
+- [MCP-B Tutorials](https://docs.mcp-b.ai/tutorials) - Best practical series: vanilla HTML, React (`useWebMCP` hook), native Chrome preview, desktop agent relay.
+  - First Tool (Vanilla JS)
+  - First React Tool
+  - Native Chrome Preview
+  - Desktop Agent Relay
+- [Codely: What is WebMCP and How to Use It](https://codely.com/en/blog/what-is-webmcp-and-how-to-use-it) - Excellent declarative + imperative breakdown with real-site examples.
+- [BetterStack Complete Guide](https://betterstack.com/community/guides/ai/webmcp-ai-web/) - Deep dive with a flight-booking example app.
+- [MCP-B How-To Guides](https://docs.mcp-b.ai/how-to) - Adoption strategies, existing app integration, runtimes (native vs polyfill vs global).
+
+---
+
+## Libraries, SDKs & Polyfills
+
+**Production-ready helpers so you don't reinvent the wheel.**
+
+### MCP-B Ecosystem
+
+The official companion library suite for WebMCP.
+
+- [MCP-B Documentation](https://docs.mcp-b.ai/) - Polyfill, types, React hooks, transports, and iframe bridging.
+- [MCP-B npm Packages](https://github.com/WebMCP-org/npm-packages) - Source for all packages:
+  - `@mcp-b/webmcp-polyfill` - Polyfill for browsers without native support.
+  - `@mcp-b/webmcp-types` - TypeScript type definitions.
+  - `usewebmcp` - React hook for tool registration.
+  - `@mcp-b/global` - Global runtime adapter.
+
+### Standalone Libraries
+
+- [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
+- [WebMCP Widget Library](https://webmcp.dev) - One-line `<script>` tag for quick demos and prototyping. [GitHub](https://github.com/jasonjmcghee/WebMCP).
+
+---
+
+## Demos & Example Projects
+
+**Live sites you can test with the inspector + agent. All from GoogleChromeLabs or high-quality community implementations.**
+
+### GoogleChromeLabs Official Demos
+
+From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (see `AWESOME_WEBMCP.md`):
+
+- **Le Petit Bistro** - Restaurant booking demo using the declarative API.
+- **React Flight Search** - Flight search with imperative tool registration.
+- **ZaMaker Pizza Builder** - Custom pizza ordering via imperative API.
+- **WebMCP Maze** - Full agent-driven maze navigation game.
+- **Mystery Doors** - Interactive puzzle with AI agent collaboration.
+
+### Community Demos
+
+- [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
+- [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
+- [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
+- [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
+- [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
+
+---
+
+## Developer Tools & Utilities
+
+- [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
+- [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
+
+---
+
+## Videos & Talks
+
+- [Don't let AI agents push your buttons - use WebMCP instead!](https://www.youtube.com/watch?v=p1l8nkQAoUw) - Khushal Sagar (Chrome Staff Engineer) on why WebMCP replaces button-clicking agents.
+- [WebMCP - Why it's awesome & How to use it](https://www.youtube.com/watch?v=xQAYZBDV5jg) - Full setup walkthrough with inspector and React integration.
+- [Syntax.fm WebMCP Deep Dive](https://www.youtube.com/watch?v=sOPhVSeimtI) - In-depth discussion + live demo.
+- [Alex Nahas (MCP-B creator) Interview](https://www.youtube.com/watch?v=6Po39iD6Pfs) - Origin story and vision for the MCP-B ecosystem.
+
+---
+
+## Articles & Best Practices
+
+- [Moving Beyond Screen Scraping](https://medium.com/data-science-collective/moving-beyond-screen-scraping-creating-an-agent-native-web-app-with-webmcp-4818552e1e11) - Real performance numbers and production code for agent-native apps.
+- [WebMCP: Making the Web AI-Agent Ready](https://dev.to/sunny7899/webmcp-making-the-web-ai-agent-ready-5152) - Practical overview on DEV Community.
+- [Chrome WebMCP: The Complete 2026 Guide](https://dev.to/czmilo/chrome-webmcp-the-complete-2026-guide-to-ai-agent-protocol-1ae9) - Comprehensive guide covering the full API surface.
+
+---
+
+## Community & Contributing
+
+- [Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Join to shape the spec.
+- [WebMCP GitHub Issues & Discussions](https://github.com/webmachinelearning/webmcp/issues) - Report bugs, request features, discuss the spec.
+- [r/mcp](https://www.reddit.com/r/mcp/) - Reddit community for MCP and WebMCP discussions.
+- [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Agent development community with WebMCP threads.
+
+---
+
+## Related: MCP Ecosystem
+
+**WebMCP pairs with full MCP clients (Claude Desktop, Cursor, etc.) via relays for end-to-end agent workflows.**
+
+- [Model Context Protocol](https://modelcontextprotocol.io/) - Official MCP spec, SDKs, and quickstart guides.
+- [MCP-B Desktop Agent Relay](https://docs.mcp-b.ai/tutorials) - Connect desktop MCP agents to in-browser WebMCP tools.
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers#readme) - Curated list of MCP servers for extending agent capabilities.
+
+---
+
+**[Back to Contents](#contents)**
