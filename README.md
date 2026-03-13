@@ -17,22 +17,22 @@ _Register tools with declarative HTML attributes or the imperative `navigator.mo
 
 ---
 
-## Contents
+## 📋 Contents
 
-- [Official Specs & Documentation](#-official-specs--documentation)
-- [Getting Started & Browser Setup](#-getting-started--browser-setup)
-- [Tutorials & Hands-On Guides](#-tutorials--hands-on-guides)
-- [Libraries, SDKs & Polyfills](#-libraries-sdks--polyfills)
-- [Demos & Example Projects](#-demos--example-projects)
-- [Developer Tools & Utilities](#-developer-tools--utilities)
-- [Videos & Talks](#-videos--talks)
-- [Articles & Best Practices](#-articles--best-practices)
-- [Community & Contributing](#-community--contributing)
-- [Related: MCP Ecosystem](#-related-mcp-ecosystem)
+- [📜 Official Specs & Documentation](#-official-specs--documentation)
+- [🚀 Getting Started & Browser Setup](#-getting-started--browser-setup)
+- [📖 Tutorials & Hands-On Guides](#-tutorials--hands-on-guides)
+- [📦 Libraries, SDKs & Polyfills](#-libraries-sdks--polyfills)
+- [🎮 Demos & Example Projects](#-demos--example-projects)
+- [🔧 Developer Tools & Utilities](#-developer-tools--utilities)
+- [🎬 Videos & Talks](#-videos--talks)
+- [📝 Articles & Best Practices](#-articles--best-practices)
+- [👥 Community & Contributing](#-community--contributing)
+- [🔗 Related: MCP Ecosystem](#-related-mcp-ecosystem)
 
 ---
 
-## Official Specs & Documentation
+## 📜 Official Specs & Documentation
 
 **The authoritative sources. Read these first.**
 
@@ -45,7 +45,7 @@ _Register tools with declarative HTML attributes or the imperative `navigator.mo
 
 ---
 
-## Getting Started & Browser Setup
+## 🚀 Getting Started & Browser Setup
 
 **Enable WebMCP and start experimenting in under 10 minutes.**
 
@@ -60,7 +60,7 @@ _Register tools with declarative HTML attributes or the imperative `navigator.mo
 
 ---
 
-## Tutorials & Hands-On Guides
+## 📖 Tutorials & Hands-On Guides
 
 **Step-by-step walkthroughs covering both the Declarative API (HTML attributes) and the Imperative API (`navigator.modelContext.registerTool`).**
 
@@ -92,7 +92,7 @@ navigator.modelContext.registerTool({
 
 ---
 
-## Libraries, SDKs & Polyfills
+## 📦 Libraries, SDKs & Polyfills
 
 **Production-ready helpers so you don't reinvent the wheel.**
 
@@ -101,11 +101,7 @@ navigator.modelContext.registerTool({
 The official companion library suite for WebMCP.
 
 - [MCP-B Documentation](https://docs.mcp-b.ai/) - Polyfill, types, React hooks, transports, and iframe bridging.
-- [MCP-B npm Packages](https://github.com/WebMCP-org/npm-packages) - Source for all packages:
-  - `@mcp-b/webmcp-polyfill` - Polyfill for browsers without native support.
-  - `@mcp-b/webmcp-types` - TypeScript type definitions.
-  - `usewebmcp` - React hook for tool registration.
-  - `@mcp-b/global` - Global runtime adapter.
+- [MCP-B npm Packages](https://github.com/WebMCP-org/npm-packages) - Source for all packages: `@mcp-b/webmcp-polyfill`, `@mcp-b/webmcp-types`, `usewebmcp`, `@mcp-b/global`.
 
 ### Standalone Libraries
 
@@ -114,19 +110,19 @@ The official companion library suite for WebMCP.
 
 ---
 
-## Demos & Example Projects
+## 🎮 Demos & Example Projects
 
 **Live sites you can test with the inspector + agent. All from GoogleChromeLabs or high-quality community implementations.**
 
 ### GoogleChromeLabs Official Demos
 
-From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (see `AWESOME_WEBMCP.md`):
+From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
-- **Le Petit Bistro** - Restaurant booking demo using the declarative API.
-- **React Flight Search** - Flight search with imperative tool registration.
-- **ZaMaker Pizza Builder** - Custom pizza ordering via imperative API.
-- **WebMCP Maze** - Full agent-driven maze navigation game.
-- **Mystery Doors** - Interactive puzzle with AI agent collaboration.
+- [Le Petit Bistro](https://googlechromelabs.github.io/webmcp-tools/demos/french-bistro/) - Restaurant booking demo using the declarative API.
+- [React Flight Search](https://googlechromelabs.github.io/webmcp-tools/demos/react-flightsearch/) - Flight search with imperative tool registration.
+- [ZaMaker Pizza Builder](https://googlechromelabs.github.io/webmcp-tools/demos/pizza-maker/) - Custom pizza ordering via imperative API.
+- [WebMCP Maze](https://googlechromelabs.github.io/webmcp-tools/demos/webmcp-maze/) - Full agent-driven maze navigation game.
+- [Mystery Doors](https://googlechromelabs.github.io/webmcp-tools/demos/doors/) - Interactive puzzle with AI agent collaboration.
 
 ### Community Demos
 
@@ -138,7 +134,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-## Developer Tools & Utilities
+## 🔧 Developer Tools & Utilities
 
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
@@ -146,7 +142,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-## Videos & Talks
+## 🎬 Videos & Talks
 
 - [Don't let AI agents push your buttons - use WebMCP instead!](https://www.youtube.com/watch?v=p1l8nkQAoUw) - Khushal Sagar (Chrome Staff Engineer) on why WebMCP replaces button-clicking agents.
 - [WebMCP - Why it's awesome & How to use it](https://www.youtube.com/watch?v=xQAYZBDV5jg) - Full setup walkthrough with inspector and React integration.
@@ -155,7 +151,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-## Articles & Best Practices
+## 📝 Articles & Best Practices
 
 - [Moving Beyond Screen Scraping](https://medium.com/data-science-collective/moving-beyond-screen-scraping-creating-an-agent-native-web-app-with-webmcp-4818552e1e11) - Real performance numbers and production code for agent-native apps.
 - [WebMCP: Making the Web AI-Agent Ready](https://dev.to/sunny7899/webmcp-making-the-web-ai-agent-ready-5152) - Practical overview on DEV Community.
@@ -164,7 +160,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-## Community & Contributing
+## 👥 Community & Contributing
 
 - [Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Join to shape the spec.
 - [WebMCP GitHub Issues & Discussions](https://github.com/webmachinelearning/webmcp/issues) - Report bugs, request features, discuss the spec.
@@ -174,7 +170,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-## Related: MCP Ecosystem
+## 🔗 Related: MCP Ecosystem
 
 **WebMCP pairs with full MCP clients (Claude Desktop, Cursor, etc.) via relays for end-to-end agent workflows.**
 
@@ -184,4 +180,4 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo (
 
 ---
 
-**[Back to Contents](#contents)**
+**[⬆ Back to Contents](#-contents)**
