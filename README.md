@@ -45,7 +45,7 @@
 
 ## 🚀 Getting Started & Browser Setup
 
-**Enable WebMCP and start experimenting in under 10 minutes.**
+**Enable WebMCP first to start experimenting.**
 
 ### Browser Flags
 
