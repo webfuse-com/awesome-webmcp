@@ -1,17 +1,15 @@
-# Awesome WebMCP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-<a href="https://webmachinelearning.github.io/webmcp"><img src="https://img.shields.io/badge/WebMCP-Agent_Native_Web-blueviolet?style=for-the-badge&logo=google-chrome&logoColor=white" alt="WebMCP Badge" align="right"></a>
-
-The browser standard that lets any website expose structured JavaScript tools directly to in-browser AI agents via `navigator.modelContext`.
-
-> **[WebMCP](https://webmachinelearning.github.io/webmcp)** turns websites into first-class participants in the agentic web. Instead of DOM scraping, screenshots, or guesswork, agents get reliable function calls with typed schemas. Speed, precision, and developer control skyrocket.
-
----
-
 <div align="center">
 
-**New:** Chrome 146+ ships with WebMCP Early Preview &mdash; enable it today in `chrome://flags`
-_Register tools with declarative HTML attributes or the imperative `navigator.modelContext` API_
+<img src="assets/webmcp-deverlopers.png" width="120" alt="WebMCP Logo" style="border-radius: 22px;" />
+
+# Awesome WebMCP
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![WebMCP](https://img.shields.io/badge/WebMCP-Agent_Native_Web-blueviolet?style=flat-square&logo=google-chrome&logoColor=white)](https://webmachinelearning.github.io/webmcp)
+[![Chrome 146+](https://img.shields.io/badge/Chrome-146%2B_Early_Preview-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://developer.chrome.com/blog/webmcp-epp)
+[![r/WebMCP_Developers](https://img.shields.io/badge/Reddit-r%2FWebMCP__Developers-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/WebMCP_Developers/)
+
+**The browser standard that lets any website expose structured JavaScript tools directly to in-browser AI agents via `navigator.modelContext`.**
 
 </div>
 
@@ -133,6 +131,16 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ## 👥 Community & Contributing
 
+<div align="center">
+
+<a href="https://www.reddit.com/r/WebMCP_Developers/">
+  <img src="assets/banner.png" alt="r/WebMCP_Developers" width="100%" />
+</a>
+
+**Join the conversation on [r/WebMCP_Developers](https://www.reddit.com/r/WebMCP_Developers/) - show your projects, ask questions, and stay on top of the latest.**
+
+</div>
+
 - [Web Machine Learning Community Group](https://www.w3.org/community/webmachinelearning/) - Join to shape the spec.
 - [WebMCP GitHub Issues & Discussions](https://github.com/webmachinelearning/webmcp/issues) - Report bugs, request features, discuss the spec.
 - [r/WebMCP_Developers](https://www.reddit.com/r/WebMCP_Developers/) - Dedicated subreddit for WebMCP developers.
@@ -148,4 +156,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ---
 
+<div align="center">
+
 **[⬆ Back to Contents](#-contents)**
+
+</div>
