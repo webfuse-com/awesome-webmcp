@@ -85,6 +85,8 @@ The official companion library suite for WebMCP.
 - [webmcp-react](https://github.com/MCPCat/webmcp-react) - React hooks for exposing typed tools via `navigator.modelContext`. Zod-first schemas, built-in polyfill, SSR-compatible (Next.js/Remix), and StrictMode-safe with reactive execution state tracking.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
 - [WebMCP Widget Library](https://webmcp.dev) - One-line `<script>` tag for quick demos and prototyping. [GitHub](https://github.com/jasonjmcghee/WebMCP).
+- [webmcp-sdk](https://github.com/up2itnow0822/webmcp-sdk) - W3C WebMCP developer toolkit with x402 payment support. Make any website agent-ready with `navigator.modelContext`. Includes TypeScript types, tool helpers, and x402 payment integration for Base.
+- [agentpay-mcp](https://www.npmjs.com/package/agentpay-mcp) - Non-custodial x402 payment layer for AI agents (v4.0.0). Handles HTTP 402 Payment Required automatically — agent wallet signs on Base and retries. Patent Pending.
 
 ---
 
@@ -109,6 +111,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
+- [AgentPay x402 Payment Demo](https://googlechromelabs.github.io/webmcp-tools/demos/x402-payment/) - AI agent makes x402 micropayments (HTTP 402 Payment Required) through `navigator.modelContext`. Wallet auto-signs on Base and retries. Shows both declarative + imperative tool patterns. [Code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/demos/x402-payment)
 
 ---
 
