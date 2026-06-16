@@ -110,6 +110,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
+- [Agent Ready](https://agent-ready.dev) - Live site that scores any URL 0–100 for AI-agent readability and exposes its own WebMCP tools (`scan_site`, `get_scan`, `ask`) via `navigator.modelContext`, so in-browser agents can run scans without scraping.
 
 ---
 
