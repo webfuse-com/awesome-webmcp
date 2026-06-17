@@ -110,6 +110,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
+- [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver, formatter, and fabrication checker that registers six WebMCP tools (`resolveIdentifier`, `formatCitation`, `exportCitation`, `verifyCitation`, `checkRetraction`, `checkOpenAccess`) on `navigator.modelContext`, so in-browser agents can resolve DOIs/PMIDs/arXiv IDs, format citations in 10,000+ styles, and check retraction, open-access, and fabrication status without scraping.
 
 ---
 
