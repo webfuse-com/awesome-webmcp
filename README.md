@@ -82,6 +82,7 @@ The official companion library suite for WebMCP.
 
 ### Standalone Libraries
 
+- [agentk](https://github.com/stevysmith/agentk) - Command palette library (cmdk fork) where tools defined once as JSON Schema become auto-generated human forms AND WebMCP registrations. Handles the `navigator.modelContext` to `document.modelContext` move, AbortSignal unregistration, and React StrictMode races. Powers the production deployment at [stacktr.ee](https://stacktr.ee). npm `@stevysmith/agentk`.
 - [Persona](https://github.com/runtypelabs/persona) - The world's first WebMCP-native AI chat UI. A framework-agnostic (vanilla JS), MIT-licensed chat widget you drop into any existing site — React, Vue, a legacy CMS, or static HTML — that discovers and executes WebMCP tools on the parent page, so you can build "copilot" experiences by hooking into your app's existing functionality instead of standing up bespoke agent APIs. Config-driven theming, built-in polyfills. npm `@runtypelabs/persona`, [live demo](https://www.persona-chat.dev/webmcp-slides.html).
 - [webmcp-react](https://github.com/MCPCat/webmcp-react) - React hooks for exposing typed tools via `navigator.modelContext`. Zod-first schemas, built-in polyfill, SSR-compatible (Next.js/Remix), and StrictMode-safe with reactive execution state tracking.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
@@ -106,6 +107,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
+- [Stacktree dashboard](https://stacktr.ee) - Production SaaS (agent-first HTML hosting): the dashboard and docs expose site-management tools (publish, update, gate, share) over WebMCP, one shared catalog between the human command palette and in-browser agents. Chrome origin trial registered.
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
