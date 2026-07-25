@@ -111,6 +111,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
+- [QR Code Crafter](https://qrcodecrafter.com/?webmcp=on) - Static QR generator with declarative forms and runtime tools; generation runs locally in the browser without an account.
 
 ---
 
