@@ -128,6 +128,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 - [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
+- [WebMCP Attack Surface Scanner](https://github.com/ElonMusk2002/webmcp-scanner) - Chrome extension that discovers a page's registered WebMCP tools and actively probes them for confirmed IDOR (real tool calls with varied IDs, diffing identity fields in the response), plus heuristics for prompt injection hidden in tool descriptions, destructive actions with no consent gate, and unconstrained input schemas.
 
 ---
 
