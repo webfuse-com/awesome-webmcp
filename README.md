@@ -162,6 +162,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 **WebMCP pairs with full MCP clients (Claude Desktop, Cursor, etc.) via relays for end-to-end agent workflows.**
 
+- [Agent QA](https://github.com/vostride/agent-qa) - The self-improving QA agent for software teams, with natural-language web and mobile tests exposed through MCP, CLI, and portable agent skills.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Official MCP spec, SDKs, and quickstart guides.
 - [MCP-B Desktop Agent Relay](https://docs.mcp-b.ai/tutorials) - Connect desktop MCP agents to in-browser WebMCP tools.
 
