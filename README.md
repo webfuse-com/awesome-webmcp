@@ -128,10 +128,10 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Cheat Sheet](https://www.webfuse.com/webmcp-cheat-sheet) - Quick-reference cheat sheet for declarative and imperative APIs, schemas, and common patterns.
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 - [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
+- [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands. [GitHub](https://github.com/robertn702/webmcp-today).
 
 ---
 
-- [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands. [GitHub](https://github.com/robertn702/webmcp-today).
 ## 🎬 Videos & Talks
 
 - [Don't let AI agents push your buttons - use WebMCP instead!](https://www.youtube.com/watch?v=p1l8nkQAoUw) - Khushal Sagar (Chrome Staff Engineer) on why WebMCP replaces button-clicking agents.
