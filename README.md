@@ -131,6 +131,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ---
 
+- [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands. [GitHub](https://github.com/robertn702/webmcp-today).
 ## 🎬 Videos & Talks
 
 - [Don't let AI agents push your buttons - use WebMCP instead!](https://www.youtube.com/watch?v=p1l8nkQAoUw) - Khushal Sagar (Chrome Staff Engineer) on why WebMCP replaces button-clicking agents.
