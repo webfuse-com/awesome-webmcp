@@ -114,7 +114,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
 - [Excalidraw + WebMCP](https://shidh.in/demo/webmcp-excalidraw) - Diagram generation driven by AI agents.
 - [Architecture Flow Builder](https://webmcp-flow.vercel.app) - Visual architecture diagramming with agent assistance.
-- [Scholar Sidekick](https://scholar-sidekick.com) - Citation resolver and fabrication checker that registers six WebMCP tools on `navigator.modelContext` to resolve DOIs/PMIDs/arXiv IDs, format 10,000+ citation styles, and check retraction and open-access status without scraping.
+- [Scholar Sidekick](https://scholar-sidekick.com/integrations/webmcp) - Citation resolver and fabrication checker that registers seven WebMCP tools on `navigator.modelContext` to resolve DOIs/PMIDs/arXiv IDs, format 10,000+ citation styles, audit a whole bibliography in one call, and check retraction and open-access status without scraping.
 - [QR Code Crafter](https://qrcodecrafter.com/qr-code-readability-lab) - Agent-native QR generation that verifies its own output: every SVG, PNG, JPG, or WebP export is decoded back and hash-checked against the requested payload, and a mismatch returns a failure receipt instead of the file.
 - [Agent Ready](https://agent-ready.dev) - Scores any URL 0-100 for agent readability and returns the full structured result to the agent via `scan_site` / `get_scan`, plus an `ask` tool for natural-language search over the scanned site.
 
