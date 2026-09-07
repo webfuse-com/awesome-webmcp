@@ -122,6 +122,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ## 🔧 Developer Tools & Utilities
 
+- [DeepDeck](https://github.com/jo32/DeepDeck) - MIT-licensed macOS desktop client based on DeepSeek Harness that discovers and calls website-provided WebMCP tools. Its Builder lets an agent explore a site, generate and verify tools, and save versioned source per site for reuse in the DeepDeck browser.
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
