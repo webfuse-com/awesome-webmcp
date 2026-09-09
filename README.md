@@ -110,6 +110,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
+- [Haul Handbook](https://www.haulhandbook.com/) - Trucking reference with four native browser WebMCP tools for site search, navigation, load-dimension comparisons across 51 U.S. jurisdictions, and sourced IFTA fuel-tax rate lookup. Tools update visible controls and preserve source dates and unknown rates. Tested in Chrome 153 with WebMCP enabled.
+
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
