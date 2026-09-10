@@ -122,6 +122,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [Simple Tools](https://simpletoolstack.com) - A toolbox for people and agents (PDF, image, text, and more), exposed over WebMCP via `document.modelContext`. Home registers `discover_tools`; each tool page registers its execute tool. [Developers](https://simpletoolstack.com/developers).
 - [scvd.store](https://scvd.store) - Evidence observatory for agentic commerce: a live x402 general store whose free conformance-check and endpoint-preflight instruments (`read_store_guide`, `preflight_endpoint`, `check_conformance`, `verify_artifact`) are also registered read-only via `navigator.modelContext`, alongside the store's own funded x402 payment flow.
 - [Settled Estate](https://settledestate.com/webmcp/) - Public probate and estate-guidance search, dated comparisons of five reviewed will makers, and state executor-compensation calculators. Browser WebMCP tools update the same visible controls used manually, with source dates, price conditions and explicit unknowns. Financial inputs stay out of shared URLs.
+- [HVAC Intake Eval Workbench](https://firstmoverprojects.github.io/hvac-intake-eval-workbench/?utm_source=awesome_webmcp&utm_medium=referral&utm_campaign=dist_bet5h) - Static MIT-licensed WebMCP demo where a human and an in-browser agent grade fictional HVAC/plumbing intake tickets on the same five deterministic checks (no backend, no uploads). Source: [firstmoverprojects/hvac-intake-eval-workbench](https://github.com/firstmoverprojects/hvac-intake-eval-workbench).
 
 ---
 
