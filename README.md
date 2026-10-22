@@ -112,6 +112,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 - [Demos](https://github.com/MicrosoftEdge/webmcp-labs#samples) by Microsoft Edge
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
+- [Fuzz Puppy Text-Based Video Editor](https://www.fuzzpuppy.com/text-based-video-editor) - Edit video by editing its transcript. Use a WebMCP-compatible AI assistant to cut unwanted speech, remove filler words, shorten pauses, add captions, and export the finished video. 
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
