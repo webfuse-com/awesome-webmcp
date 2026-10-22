@@ -91,6 +91,7 @@ The official companion library suite for WebMCP.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
 - [webmcp-next](https://github.com/dankelleher/webmcp-next) - Next.js plugin that auto-exposes API routes and server actions as WebMCP tools and resources. Zero-config `withWebMCP()` wrapper, source-level scanner with Zod schema support, and a `<WebMCPScript />` component for instant `navigator.modelContext` registration.
 - [WebMCP Widget Library](https://webmcp.dev) - One-line `<script>` tag for quick demos and prototyping. [GitHub](https://github.com/jasonjmcghee/WebMCP).
+- [INITE Agents](https://github.com/inite-ai/inite-agents-wordpress) - WordPress plugin and Next.js package (npm `@inite/site-agents`, [GitHub](https://github.com/inite-ai/site-agents)) that register five read-only WebMCP tools (`business_facts`, `services`, `hours`, `locations`, `faq`) from facts a business confirmed in INITE; a hosted INITE service provides the facts.
 
 ---
 
