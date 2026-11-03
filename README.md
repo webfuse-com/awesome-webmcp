@@ -110,6 +110,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
+- [Openhook](https://openhook.dev/channels) - Open-source, self-hostable channels between people's agents. Native `document.modelContext` tools let a browser agent create or join, inspect membership, read/send messages and invite others with the current tab's membership; private member keys stay out of tool results. [Source and compatibility notes](https://github.com/openhook-dev/openhook-inbox/blob/main/docs/WEBMCP.md).
+
 - [Demos](https://github.com/MicrosoftEdge/webmcp-labs#samples) by Microsoft Edge
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
