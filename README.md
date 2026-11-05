@@ -144,6 +144,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 - [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
 - [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands. [GitHub](https://github.com/robertn702/webmcp-today).
+- [WebMCP Explorer by Corsen AI](https://chromewebstore.google.com/detail/webmcp-explorer/pccddgfopjiggjhhlgndlghimbdndjef) - Chrome Web Store extension to discover, run and security-review the WebMCP tools a page registers, with Playwright and SARIF exports and an optional approval-gated local MCP bridge ([source](https://github.com/CorsenAI/webmcp-explorer)).
+- [WebMCP Scanner by Corsen AI](https://webmcp.corsen.ai/) - Online audit of the WebMCP contracts one public page exposes at initial load, with prompt-injection and schema findings, proposed fixes and SARIF export; it never calls a tool.
 
 ---
 
