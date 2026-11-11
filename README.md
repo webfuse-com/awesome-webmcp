@@ -110,6 +110,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
+- [CompareDataBuyers](https://comparedatabuyers.com/buyers/) - Find and compare AI data licensing programs, check published criteria without uploading records, and prepare an inquiry brief. Browser WebMCP tools update the same visible controls used manually. [Qualification and brief tools](https://comparedatabuyers.com/qualify/) omit private scope notes from agent-generated briefs and preserve unknown program terms. Requires a browser with native WebMCP available.
+
 - [Demos](https://github.com/MicrosoftEdge/webmcp-labs#samples) by Microsoft Edge
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
