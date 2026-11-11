@@ -91,6 +91,7 @@ The official companion library suite for WebMCP.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
 - [webmcp-next](https://github.com/dankelleher/webmcp-next) - Next.js plugin that auto-exposes API routes and server actions as WebMCP tools and resources. Zero-config `withWebMCP()` wrapper, source-level scanner with Zod schema support, and a `<WebMCPScript />` component for instant `navigator.modelContext` registration.
 - [WebMCP Widget Library](https://webmcp.dev) - One-line `<script>` tag for quick demos and prototyping. [GitHub](https://github.com/jasonjmcghee/WebMCP).
+- [WebMCPlet](https://github.com/awesomeopen/awesome-open/tree/main/webmcplet) - MIT-licensed, dependency-free script that gives a curated list read-only WebMCP tools (`list_sections`, `list_find`, `list_get`) and a search panel on the list's own page, from one generated JSON file. Includes an importer for `- [name](url) - description` READMEs; adopters copy the files, nothing is published to a package registry. [Changelog](https://github.com/awesomeopen/awesome-open/blob/main/webmcplet/CHANGELOG.md).
 
 ---
 
@@ -127,6 +128,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [Intlayer](https://intlayer.org) - Open-source content internationalization (i18n) framework and CMS platform. Exposes WebMCP tools for agents to manage authentication, conduct documentation research, access specialized utilities (like an i18n scanner and ICU converter), and retrieve or translate content directly from the web platform.
 - [Timeline Studio](https://video-editor.ai-creator.top/) - Open-source browser video editor exposing nine WebMCP tools for timeline inspection, previewed clip reordering and basic trimming, guarded undo, and editable project downloads. [GitHub](https://github.com/MartinDelophy/ai-video-editor) · [Docs](https://github.com/MartinDelophy/ai-video-editor/blob/v1.0.8/docs/webmcp.md).
 - [sms-florin](https://flo-voice1.com/esim) - eSIM and virtual phone number store on a live commercial product. Registers `list_esim_plans` and `buy_esim_plan` on `document.modelContext`; the buy tool creates a real Stripe Checkout session through the same `esim-checkout.lib.ts` path the human form uses and hands the agent the URL, stopping at the payment boundary - no charge until a person enters card details on Stripe. [Integration source](https://github.com/flovoice53-tech/sms-florin-webmcp-demo)
+- [Awesome Open\* Catalog](https://awesomeopen.github.io/awesome-open/) - Catalog of software named Open (content CC0-1.0). The page registers WebMCP tools to search, inspect, arrange and compare projects (`cabinet_find`, `cabinet_inspect`, `cabinet_arrange`, `cabinet_compare`) and WebMCPlet's read-only `list_sections`, `list_find` and `list_get`. Tested with ChatGPT's web UI. [GitHub](https://github.com/awesomeopen/awesome-open).
 
 ---
 
