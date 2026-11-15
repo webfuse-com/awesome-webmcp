@@ -186,6 +186,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Official MCP spec, SDKs, and quickstart guides.
 - [MCP-B Desktop Agent Relay](https://docs.mcp-b.ai/tutorials) - Connect desktop MCP agents to in-browser WebMCP tools.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server for searching under-400 capacity live music venues across North America.
 
 ---
 
