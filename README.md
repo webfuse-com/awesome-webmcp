@@ -56,6 +56,7 @@
 
 - [Model Context Tool Inspector](https://chromewebstore.google.com/detail/model-context-tool-inspec/gbpdfapgefenggkahomfgkhfehlcenpd) - Official GoogleChromeLabs tool for debugging schemas, testing tool calls, and visualizing registered tools. Part of [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools).
 - [MCP-B Chrome Extension](https://chromewebstore.google.com/detail/mcp-b-extension/daohopfhkdelnpemnhlekblhnikhdhfa) - Bridges desktop MCP agents with in-browser WebMCP tools + polyfill support.
+- [Deputy](https://chromewebstore.google.com/detail/deputy/ofcadhlipiciahelmcjofblnjhmjoepm) - Retrofits WebMCP onto sites that never adopted it: annotates a page's own forms with the declarative attributes so Chromium generates the schemas, builds tools from ARIA widgets where there is no form, and serves them to any MCP client from your logged-in Chrome. Open source at [zraisan/deputy](https://github.com/zraisan/deputy).
 
 ---
 
@@ -67,6 +68,8 @@
 - [Codely: What is WebMCP and How to Use It](https://codely.com/en/blog/what-is-webmcp-and-how-to-use-it) - Excellent declarative + imperative breakdown with real-site examples.
 - [BetterStack Complete Guide](https://betterstack.com/community/guides/ai/webmcp-ai-web/) - Deep dive with a flight-booking example app.
 - [MCP-B How-To Guides](https://docs.mcp-b.ai/how-to) - Adoption strategies, existing app integration, runtimes (native vs polyfill vs global).
+
+- [WebMCP action examples](https://github.com/raghav453/webmcp-action-examples) - Runnable JavaScript examples with validated fictional-data handlers, human-reviewed local drafts, lifecycle cleanup, automated tests and explicit native/polyfill compatibility notes.
 
 ---
 
@@ -90,7 +93,9 @@ The official companion library suite for WebMCP.
 - [webmcp-react](https://github.com/MCPCat/webmcp-react) - React hooks for exposing typed tools via `navigator.modelContext`. Zod-first schemas, built-in polyfill, SSR-compatible (Next.js/Remix), and StrictMode-safe with reactive execution state tracking.
 - [webmcp-kit](https://github.com/victorhuangwq/webmcp-kit) - Zod-typed tool definitions, ideal for modern TypeScript/React apps.
 - [webmcp-next](https://github.com/dankelleher/webmcp-next) - Next.js plugin that auto-exposes API routes and server actions as WebMCP tools and resources. Zero-config `withWebMCP()` wrapper, source-level scanner with Zod schema support, and a `<WebMCPScript />` component for instant `navigator.modelContext` registration.
+- [webmcp-tour](https://github.com/fboldo/webmcp-tour) - Guided tours for AI agents via WebMCP: one script tag, and any agent can highlight and explain your app's controls. Registers four tools (`tour_show_step`, `tour_list_targets`, `tour_dismiss`, `tour_wait_for_interaction`), zero dependencies, works with no setup or with declared targets and pages. npm `webmcp-tour`, [docs](https://fboldo.github.io/webmcp-tour/) · [live demo](https://fboldo.github.io/webmcp-tour/demo/).
 - [WebMCP Widget Library](https://webmcp.dev) - One-line `<script>` tag for quick demos and prototyping. [GitHub](https://github.com/jasonjmcghee/WebMCP).
+- [WebMCPlet](https://github.com/awesomeopen/awesome-open/tree/main/webmcplet) - MIT-licensed, dependency-free script that gives a curated list read-only WebMCP tools (`list_sections`, `list_find`, `list_get`) and a search panel on the list's own page, from one generated JSON file. Includes an importer for `- [name](url) - description` READMEs; adopters copy the files, nothing is published to a package registry. [Changelog](https://github.com/awesomeopen/awesome-open/blob/main/webmcplet/CHANGELOG.md).
 
 ---
 
@@ -112,6 +117,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 - [Demos](https://github.com/MicrosoftEdge/webmcp-labs#samples) by Microsoft Edge
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
+- [Fuzz Puppy Text-Based Video Editor](https://www.fuzzpuppy.com/text-based-video-editor) - Edit video by editing its transcript. Use a WebMCP-compatible AI assistant to cut unwanted speech, remove filler words, shorten pauses, add captions, and export the finished video. 
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
 - [WebMCP Blackjack](https://webmcp-blackjack.heejae.dev) - Multi-agent blackjack game.
@@ -127,6 +133,10 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [Intlayer](https://intlayer.org) - Open-source content internationalization (i18n) framework and CMS platform. Exposes WebMCP tools for agents to manage authentication, conduct documentation research, access specialized utilities (like an i18n scanner and ICU converter), and retrieve or translate content directly from the web platform.
 - [Timeline Studio](https://video-editor.ai-creator.top/) - Open-source browser video editor exposing nine WebMCP tools for timeline inspection, previewed clip reordering and basic trimming, guarded undo, and editable project downloads. [GitHub](https://github.com/MartinDelophy/ai-video-editor) · [Docs](https://github.com/MartinDelophy/ai-video-editor/blob/v1.0.8/docs/webmcp.md).
 - [sms-florin](https://flo-voice1.com/esim) - eSIM and virtual phone number store on a live commercial product. Registers `list_esim_plans` and `buy_esim_plan` on `document.modelContext`; the buy tool creates a real Stripe Checkout session through the same `esim-checkout.lib.ts` path the human form uses and hands the agent the URL, stopping at the payment boundary - no charge until a person enters card details on Stripe. [Integration source](https://github.com/flovoice53-tech/sms-florin-webmcp-demo)
+- [Awesome Open\* Catalog](https://awesomeopen.github.io/awesome-open/) - Catalog of software named Open (content CC0-1.0). The page registers WebMCP tools to search, inspect, arrange and compare projects (`cabinet_find`, `cabinet_inspect`, `cabinet_arrange`, `cabinet_compare`) and WebMCPlet's read-only `list_sections`, `list_find` and `list_get`. Tested with ChatGPT's web UI. [GitHub](https://github.com/awesomeopen/awesome-open).
+- [1 Million Emojis](https://chriswijnia.com/lab/emoji) - Shared 1,000 x 1,000 emoji canvas that registers `emoji_paint`, `emoji_latest`, `emoji_space` and `emoji_jev` as WebMCP tools, so an agent paints the live canvas alongside people, and Jev answers each stroke.
+- [NomadPoint Schengen calculator](https://nomadpoint.app/schengen-calculator) - Registers `calculate_schengen_days` on every nomadpoint.app page: pass stays as entry and exit dates and get days used, days left and the date you must leave by under the 90/180 rule, counted the way border officers count (entry and exit days both count, the whole area not per country). No account. The same engine is a no-auth MCP server, `app.nomadpoint/travel-facts`.
+- [BestPrice.gr](https://www.bestprice.gr/) - Greece's largest price-comparison site, in production. Every public page registers contextual, read-only-or-single-action WebMCP tools (22, each with input and output schemas) for product search, filters and sorting, product facts, live merchant offers with delivered totals, price history, the shopping list and comparisons, and price-drop alerts; the merchant choice stays with the shopper. Manifest at [`/.well-known/webmcp.json`](https://www.bestprice.gr/.well-known/webmcp.json) · [Contracts and evals](https://github.com/TheBestCo/bestprice-mcp/tree/main/webmcp).
 - [One task, two interfaces](https://chainofthought.show/labs/webmcp/) - Fictional agent code-review task from Chain of Thought that runs the same scenario two ways: a buttons-only baseline, or three tools (`inspect_scenario`, `make_choice`, `get_result`) registered on `document.modelContext`. Both modes share one rule set, and the result records which evidence the agent inspected, its decision, and the route it took.
 
 ---
@@ -145,6 +155,8 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [webmcpify](https://github.com/TueJon/webmcpify) - Agent skill for Claude Code, Codex, Cursor, and 70+ other coding agents that makes an existing app agent-ready end to end: inventory → approved tool manifest → integrate → verify every tool in a real browser → heal. Vendored zero-dependency runtime, resumable runs.
 - [webmaxru/web-ai-agent-skills: WebMCP](https://github.com/webmaxru/web-ai-agent-skills/tree/main/skills/webmcp) - Agent skill for shipping and debugging `navigator.modelContext` integrations in existing JS/TS apps, with guidance for declarative forms, tool schemas, and preview validation.
 - [WebMCP Today](https://webmcp.today/) - Open-source package registry for discovering site-specific WebMCP packages and installing them with per-site install commands. [GitHub](https://github.com/robertn702/webmcp-today).
+- [WebMCP Explorer by Corsen AI](https://chromewebstore.google.com/detail/webmcp-explorer/pccddgfopjiggjhhlgndlghimbdndjef) - Chrome Web Store extension to discover, run and security-review the WebMCP tools a page registers, with Playwright and SARIF exports and an optional approval-gated local MCP bridge ([source](https://github.com/CorsenAI/webmcp-explorer)).
+- [WebMCP Scanner by Corsen AI](https://webmcp.corsen.ai/) - Online audit of the WebMCP contracts one public page exposes at initial load, with prompt-injection and schema findings, proposed fixes and SARIF export; it never calls a tool.
 
 ---
 
