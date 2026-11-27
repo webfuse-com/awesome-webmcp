@@ -69,6 +69,8 @@
 - [BetterStack Complete Guide](https://betterstack.com/community/guides/ai/webmcp-ai-web/) - Deep dive with a flight-booking example app.
 - [MCP-B How-To Guides](https://docs.mcp-b.ai/how-to) - Adoption strategies, existing app integration, runtimes (native vs polyfill vs global).
 
+- [WebMCP action examples](https://github.com/raghav453/webmcp-action-examples) - Runnable JavaScript examples with validated fictional-data handlers, human-reviewed local drafts, lifecycle cleanup, automated tests and explicit native/polyfill compatibility notes.
+
 ---
 
 ## 📦 Libraries, SDKs & Polyfills
