@@ -56,6 +56,7 @@
 
 - [Model Context Tool Inspector](https://chromewebstore.google.com/detail/model-context-tool-inspec/gbpdfapgefenggkahomfgkhfehlcenpd) - Official GoogleChromeLabs tool for debugging schemas, testing tool calls, and visualizing registered tools. Part of [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools).
 - [MCP-B Chrome Extension](https://chromewebstore.google.com/detail/mcp-b-extension/daohopfhkdelnpemnhlekblhnikhdhfa) - Bridges desktop MCP agents with in-browser WebMCP tools + polyfill support.
+- [Deputy](https://chromewebstore.google.com/detail/deputy/ofcadhlipiciahelmcjofblnjhmjoepm) - Retrofits WebMCP onto sites that never adopted it: annotates a page's own forms with the declarative attributes so Chromium generates the schemas, builds tools from ARIA widgets where there is no form, and serves them to any MCP client from your logged-in Chrome. Open source at [zraisan/deputy](https://github.com/zraisan/deputy).
 
 ---
 
